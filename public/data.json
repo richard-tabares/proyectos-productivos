@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "nombre": "Gestor de Tareas",
+      "descripcion": "Aplicación web CRUD para gestionar tareas personales y laborales. Incluye filtros por estado, prioridad y fecha límite con interfaz responsive.",
+      "integrantes": ["Ana López", "Carlos Ruiz"],
+      "url": "https://gestor-tareas-demo.vercel.app",
+      "github": "https://github.com/ana-lopez/gestor-tareas"
+    },
+    {
+      "id": 2,
+      "nombre": "E-commerce API",
+      "descripcion": "Backend RESTful para tienda online con autenticación JWT, carrito de compras, pasarela de pago simulada y documentación Swagger.",
+      "integrantes": ["María García", "Pedro Sánchez", "Lucía Fernández"],
+      "url": "https://ecommerce-api-demo.vercel.app",
+      "github": "https://github.com/maria-garcia/ecommerce-api"
+    },
+    {
+      "id": 3,
+      "nombre": "Dashboard Analytics",
+      "descripcion": "Panel de visualización de datos interactivo con gráficos dinámicos usando Chart.js. Permite exportar reportes en PDF y CSV.",
+      "integrantes": ["Diego Martínez"],
+      "url": "https://dashboard-analytics-demo.vercel.app",
+      "github": "https://github.com/diego-martinez/dashboard-analytics"
+    },
+    {
+      "id": 4,
+      "nombre": "Chat en Tiempo Real",
+      "descripcion": "Plataforma de mensajería instantánea con WebSockets, salas temáticas, notificaciones push y modo oscuro.",
+      "integrantes": ["Sofía Torres", "Jorge Ramírez", "Valentina Ortiz"],
+      "url": "https://chat-tiempo-real-demo.vercel.app",
+      "github": "https://github.com/sofia-torres/chat-tiempo-real"
+    }
+  ]
+}

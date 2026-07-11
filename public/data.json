@@ -5,7 +5,7 @@
     {
       "id": 1,
       "nombre": "Tu ruta fácil",
-      "descripcion": "Tu ruta facil, web para directorio de moto taxi y moto carro.",
+      "descripcion": "Tu ruta fácil, web para directorio de moto taxi y moto carro.",
       "imagen": "gestor.jpg",
       "categoria": "Transporte",
       "anio": 2026,
@@ -49,7 +49,7 @@
     {
       "id": 5,
       "nombre": "Yogures artesanales El Antojo",
-      "descripcion": "Tienda en linea para venta de yogures artesanales",
+      "descripcion": "Tienda en línea para venta de yogures artesanales",
       "imagen": "yogures.png",
       "categoria": "Emprendimientos",
       "anio": 2026,
@@ -60,7 +60,7 @@
     {
       "id": 6,
       "nombre": "Sitio web - Institución Educativa Ignacion Yepes Yepes",
-      "descripcion": "Tienda en linea para venta de yogures artesanales",
+      "descripcion": "Desarrollo de sitio web institucional para Institución Educativa Ignacio Yepes Yepes",
       "imagen": "yepes.png",
       "categoria": "Corporativo",
       "anio": 2026,
@@ -71,7 +71,7 @@
     {
       "id": 7,
       "nombre": "Tienda productos del campo",
-      "descripcion": "Tienda en linea para apoyar la eventa de productos del campo",
+      "descripcion": "Tienda en línea para apoyar la venta de productos del campo",
       "imagen": "tiendacampo.png",
       "categoria": "Tiendas",
       "anio": 2026,

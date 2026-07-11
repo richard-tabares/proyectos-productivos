@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
     <article className="group cursor-pointer rounded-xl border border-border bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-md">
       <div className="aspect-[16/9] overflow-hidden rounded-t-xl">
         <img
-          src={project.imagen}
+          src={'/images/' + project.imagen}
           alt={project.nombre}
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
           loading="lazy"

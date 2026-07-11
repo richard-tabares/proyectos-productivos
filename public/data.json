@@ -1,50 +1,83 @@
 {
-  "categoriasDisponibles": ["Frontend", "Backend", "Full Stack", "Mobile"],
-  "aniosDisponibles": [2024, 2025],
+  "categoriasDisponibles": ["Tiendas", "Corporativo", "Emprendimientos", "Transporte", "Automatizaciones"],
+  "aniosDisponibles": [2026],
   "projects": [
     {
       "id": 1,
-      "nombre": "Gestor de Tareas",
-      "descripcion": "Aplicación web CRUD para gestionar tareas personales y laborales. Incluye filtros por estado, prioridad y fecha límite con interfaz responsive.",
+      "nombre": "Tu ruta fácil",
+      "descripcion": "Tu ruta facil, web para directorio de moto taxi y moto carro.",
       "imagen": "gestor.jpg",
-      "categoria": "Frontend",
-      "anio": 2025,
-      "integrantes": ["Ana López", "Carlos Ruiz"],
+      "categoria": "Transporte",
+      "anio": 2026,
+      "integrantes": ["Stefania Hernandez Rojo","Mariana Alvarez Vasquez"],
       "url": "https://gestor-tareas-demo.vercel.app",
       "github": "https://github.com/ana-lopez/gestor-tareas"
     },
     {
       "id": 2,
-      "nombre": "E-commerce API",
-      "descripcion": "Backend RESTful para tienda online con autenticación JWT, carrito de compras, pasarela de pago simulada y documentación Swagger.",
+      "nombre": "Sitio web - Institución Educativa Llano de Cordoba",
+      "descripcion": "Desarrollo de sitio web institucional y admisnitrador de notas.",
       "imagen": "ecommerce.jpg",
-      "categoria": "Backend",
-      "anio": 2025,
-      "integrantes": ["María García", "Pedro Sánchez", "Lucía Fernández"],
-      "url": "https://ecommerce-api-demo.vercel.app",
-      "github": "https://github.com/maria-garcia/ecommerce-api"
+      "categoria": "Corporativo",
+      "anio": 2026,
+      "integrantes": ["Juan David Salazar", "Kevin Mesa Zapata"],
+      "url": "https://sga-lladeco.netlify.app/",
+      "github": "https://github.com/Junior-Saretrega/app-sga"
     },
     {
       "id": 3,
-      "nombre": "Dashboard Analytics",
-      "descripcion": "Panel de visualización de datos interactivo con gráficos dinámicos usando Chart.js. Permite exportar reportes en PDF y CSV.",
+      "nombre": "Afilicore",
+      "descripcion": "Afilicore, digitalización de proceso de registro de una junta de acción comunal.",
       "imagen": "dashboard.jpg",
-      "categoria": "Full Stack",
-      "anio": 2024,
-      "integrantes": ["Diego Martínez"],
+      "categoria": "Automatizaciones",
+      "anio": 2026,
+      "integrantes": ["Libna Ramos Tamara", "Sofia Anibal Zapata"],
       "url": "https://dashboard-analytics-demo.vercel.app",
       "github": "https://github.com/diego-martinez/dashboard-analytics"
     },
     {
       "id": 4,
-      "nombre": "Chat en Tiempo Real",
-      "descripcion": "Plataforma de mensajería instantánea con WebSockets, salas temáticas, notificaciones push y modo oscuro.",
+      "nombre": "Glow Up Beaty Studio",
+      "descripcion": "Glow Up Beaty Studio: landing page de productos de belleza",
       "imagen": "chat.jpg",
-      "categoria": "Full Stack",
-      "anio": 2025,
-      "integrantes": ["Sofía Torres", "Jorge Ramírez", "Valentina Ortiz"],
-      "url": "https://chat-tiempo-real-demo.vercel.app",
-      "github": "https://github.com/sofia-torres/chat-tiempo-real"
+      "categoria": "Tiendas",
+      "anio": 2026,
+      "integrantes": ["Jose Metaute Arias", "Sofia Calle"],
+      "url": "https://glow-up-beauty-studio.vercel.app/",
+      "github": "https://github.com/ja0691758-a11y/Glow-up-Beauty-studio"
+    },
+    {
+      "id": 5,
+      "nombre": "Yogures artesanales El Antojo",
+      "descripcion": "Tienda en linea para venta de yogures artesanales",
+      "imagen": "chat.jpg",
+      "categoria": "Emprendimientos",
+      "anio": 2026,
+      "integrantes": ["Pablo Zapata Urrego", "Darison Lopez Toro", "Saray Agudelo"],
+      "url": "https://yogures-el-antojo.netlify.app/",
+      "github": "https://github.com/Pablo-Zapata-57/yogures-el-antojo"
+    },
+    {
+      "id": 6,
+      "nombre": "Sitio web - Institución Educativa Ignacion Yepes Yepes",
+      "descripcion": "Tienda en linea para venta de yogures artesanales",
+      "imagen": "chat.jpg",
+      "categoria": "Corporativo",
+      "anio": 2026,
+      "integrantes": ["Sergio Montoya Lopez", "Lorena Miranda"],
+      "url": "https://igancio-yespes-yepes.vercel.app/",
+      "github": "https://github.com/montoyaloped-code/Proyecto-2"
+    },
+    {
+      "id": 7,
+      "nombre": "Tienda productos del campo",
+      "descripcion": "Tienda en linea para apoyar la eventa de productos del campo",
+      "imagen": "chat.jpg",
+      "categoria": "Tiendas",
+      "anio": 2026,
+      "integrantes": ["Sergio Montoya Lopez", "Lorena Miranda"],
+      "url": "https://agrostoreapp.netlify.app/#contacto",
+      "github": "https://github.com/monoa26/AgroStore"
     }
   ]
 }

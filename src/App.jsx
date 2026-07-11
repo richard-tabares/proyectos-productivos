@@ -5,12 +5,18 @@ import ProjectGrid from './components/ProjectGrid'
 import Footer from './components/Footer'
 
 function App() {
-  const [projects, setProjects] = useState([])
+  const [data, setData] = useState({ projects: [], categoriasDisponibles: [], aniosDisponibles: [] })
 
   useEffect(() => {
     fetch('/data.json')
       .then((res) => res.json())
-      .then((data) => setProjects(data.projects))
+      .then((d) =>
+        setData({
+          projects: d.projects,
+          categoriasDisponibles: d.categoriasDisponibles,
+          aniosDisponibles: d.aniosDisponibles,
+        })
+      )
       .catch((err) => console.error('Error loading projects:', err))
   }, [])
 
@@ -18,7 +24,11 @@ function App() {
     <div className="min-h-screen bg-white text-text-primary">
       <Header />
       <Hero />
-      <ProjectGrid projects={projects} />
+      <ProjectGrid
+        projects={data.projects}
+        categorias={data.categoriasDisponibles}
+        anios={data.aniosDisponibles}
+      />
       <Footer />
     </div>
   )

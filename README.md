@@ -1,16 +1,48 @@
-# React + Vite
+# Proyectos Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page para mostrar los proyectos web del curso de Desarrollo de Software y Tecnología.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Vite** + **React** (JavaScript)
+- **Tailwind CSS** v4.3
+- **Lucide React** (iconos)
+- Google Fonts (Inter)
 
-## React Compiler
+## Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Diseño limpio y minimalista
+- Tema CSS con variables de color (azul marino + blanco)
+- Visualización de proyectos con imagen, descripción, integrantes y enlaces
+- Filtros por categoría y año (píldoras)
+- Datos cargados desde `public/data.json`
+- Favicon con icono `</>` (Code2)
+- Responsive design
 
-## Expanding the Oxlint configuration
+## Proyectos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Los proyectos se definen en `public/data.json` con la siguiente estructura:
+
+```json
+{
+  "id": 1,
+  "nombre": "Nombre del proyecto",
+  "descripcion": "Descripción del proyecto",
+  "imagen": "nombre-archivo.jpg",
+  "categoria": "Frontend",
+  "anio": 2025,
+  "integrantes": ["Nombre1", "Nombre2"],
+  "url": "https://demo.vercel.app",
+  "github": "https://github.com/usuario/repo"
+}
+```
+
+Las imágenes se colocan en `public/images/`.
+
+## Scripts
+
+```bash
+npm run dev      # desarrollo
+npm run build    # build producción
+npm run preview  # previsualizar build
+```

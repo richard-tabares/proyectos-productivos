@@ -10,8 +10,8 @@
       "categoria": "Transporte",
       "anio": 2026,
       "integrantes": ["Stefania Hernandez Rojo","Mariana Alvarez Vasquez"],
-      "url": "https://gestor-tareas-demo.vercel.app",
-      "github": "https://github.com/ana-lopez/gestor-tareas"
+      "url": "https://turutafacil.netlify.app/",
+      "github": "https://github.com/stefarojo25/Tu-Ruta-Facil"
     },
     {
       "id": 2,
@@ -32,8 +32,8 @@
       "categoria": "Automatizaciones",
       "anio": 2026,
       "integrantes": ["Libna Ramos Tamara", "Sofia Anibal Zapata"],
-      "url": "https://dashboard-analytics-demo.vercel.app",
-      "github": "https://github.com/diego-martinez/dashboard-analytics"
+      "url": "https://afilicore.netlify.app/",
+      "github": "https://github.com/anibalsofia371-ks/afilicore"
     },
     {
       "id": 4,

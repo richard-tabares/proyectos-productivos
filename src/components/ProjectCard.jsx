@@ -14,9 +14,9 @@ export default function ProjectCard({ project }) {
       <div className="p-6">
         <div className="mb-1 flex items-start justify-between gap-4">
           <h3 className="text-lg font-semibold text-text-primary">{project.nombre}</h3>
-          <span className="shrink-0 rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
+          {/* <span className="shrink-0 rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
             #{project.id}
-          </span>
+          </span> */}
         </div>
 
         <p className="mb-4 text-sm leading-relaxed text-muted">{project.descripcion}</p>

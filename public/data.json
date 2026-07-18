@@ -82,7 +82,7 @@
       "categoria": "Tiendas",
       "anio": 2026,
       "integrantes": ["Joseph Guardia", "Mateo Tabares"],
-      "url": "https://agrostoreapp.netlify.app/#contacto",
+      "url": "https://agrostoreapp.netlify.app",
       "github": "https://github.com/monoa26/AgroStore",
       "wordFile": "tiendacampo.docx"
     }

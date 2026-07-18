@@ -1,4 +1,4 @@
-import { ExternalLink, GitFork, Users } from 'lucide-react'
+import { ExternalLink, FileDown, GitFork, Users } from 'lucide-react'
 
 export default function ProjectCard({ project }) {
   return (
@@ -26,24 +26,32 @@ export default function ProjectCard({ project }) {
           <span>{project.integrantes.join(', ')}</span>
         </div>
 
-        <div className="flex flex-wrap gap-3 border-t border-border pt-4">
+        <div className="flex flex-nowrap gap-2 border-t border-border pt-4">
           <a
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-primary-light"
+            className="inline-flex items-center gap-1 rounded-lg bg-primary px-3 py-1.5 text-xs font-medium text-white transition-colors hover:bg-primary-light"
           >
-            <ExternalLink size={16} />
+            <ExternalLink size={14} />
             Demo
           </a>
           <a
             href={project.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-white px-4 py-2 text-sm font-medium text-text-primary transition-colors hover:bg-surface"
+            className="inline-flex items-center gap-1 rounded-lg border border-border bg-white px-3 py-1.5 text-xs font-medium text-text-primary transition-colors hover:bg-surface"
           >
-            <GitFork size={16} />
+            <GitFork size={14} />
             GitHub
+          </a>
+          <a
+            href={'/files/' + project.wordFile}
+            download
+            className="inline-flex items-center gap-1 rounded-lg border border-border bg-white px-3 py-1.5 text-xs font-medium text-text-primary transition-colors hover:bg-surface"
+          >
+            <FileDown size={14} />
+            Proyecto
           </a>
         </div>
       </div>

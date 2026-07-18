@@ -11,7 +11,8 @@
       "anio": 2026,
       "integrantes": ["Stefania Hernandez Rojo","Mariana Alvarez Vasquez"],
       "url": "https://turutafacil.netlify.app/",
-      "github": "https://github.com/stefarojo25/Tu-Ruta-Facil"
+      "github": "https://github.com/stefarojo25/Tu-Ruta-Facil",
+      "wordFile": "turuta.docx"
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "anio": 2026,
       "integrantes": ["Juan David Salazar", "Kevin Mesa Zapata"],
       "url": "https://sga-lladeco.netlify.app/",
-      "github": "https://github.com/Junior-Saretrega/app-sga"
+      "github": "https://github.com/Junior-Saretrega/app-sga",
+      "wordFile": "cordoba.docx"
     },
     {
       "id": 3,
@@ -33,7 +35,8 @@
       "anio": 2026,
       "integrantes": ["Libna Ramos Tamara", "Sofia Anibal Zapata"],
       "url": "https://afilicore.netlify.app/",
-      "github": "https://github.com/anibalsofia371-ks/afilicore"
+      "github": "https://github.com/anibalsofia371-ks/afilicore",
+      "wordFile": "afilicore.docx"
     },
     {
       "id": 4,
@@ -44,7 +47,8 @@
       "anio": 2026,
       "integrantes": ["Jose Metaute Arias", "Sofia Calle"],
       "url": "https://glow-up-beauty-studio.vercel.app/",
-      "github": "https://github.com/ja0691758-a11y/Glow-up-Beauty-studio"
+      "github": "https://github.com/ja0691758-a11y/Glow-up-Beauty-studio",
+      "wordFile": "glowup.docx"
     },
     {
       "id": 5,
@@ -55,7 +59,8 @@
       "anio": 2026,
       "integrantes": ["Pablo Zapata Urrego", "Darison Lopez Toro", "Saray Agudelo"],
       "url": "https://yogures-el-antojo.netlify.app/",
-      "github": "https://github.com/Pablo-Zapata-57/yogures-el-antojo"
+      "github": "https://github.com/Pablo-Zapata-57/yogures-el-antojo",
+      "wordFile": "yogures.docx"
     },
     {
       "id": 6,
@@ -66,7 +71,8 @@
       "anio": 2026,
       "integrantes": ["Sergio Montoya Lopez", "Lorena Miranda"],
       "url": "https://igancio-yespes-yepes.vercel.app/",
-      "github": "https://github.com/montoyaloped-code/Proyecto-2"
+      "github": "https://github.com/montoyaloped-code/Proyecto-2",
+      "wordFile": "yepes.docx"
     },
     {
       "id": 7,
@@ -77,7 +83,8 @@
       "anio": 2026,
       "integrantes": ["Joseph Guardia", "Mateo Tabares"],
       "url": "https://agrostoreapp.netlify.app/#contacto",
-      "github": "https://github.com/monoa26/AgroStore"
+      "github": "https://github.com/monoa26/AgroStore",
+      "wordFile": "tiendacampo.docx"
     }
   ]
 }
